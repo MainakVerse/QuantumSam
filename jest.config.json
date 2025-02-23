@@ -1,0 +1,21 @@
+{
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+        "./src/**/*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+        "./src/libs/*"
+    ],
+    "setupFiles": [
+        "jest-canvas-mock"
+    ],
+    "coverageDirectory": "./coverage",
+    "coverageReporters": [
+        "json",
+        "lcov",
+        "text",
+        "clover",
+        "cobertura"
+    ],
+    "verbose": true
+}
